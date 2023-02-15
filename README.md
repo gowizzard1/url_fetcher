@@ -7,11 +7,11 @@ To install the application, clone the repository and run the following command:
 ```go
 go install ./...
 ```
-This will install the awesomeProject command in your $GOBIN directory.
+This will install the url_fetcher command in your $GOBIN directory.
 
 ### Usage
 ```css
-awesomeProject [flags] [url1] [url2] ... [urlN]
+url_fetcher [flags] [url1] [url2] ... [urlN]
 ```
 ### Flags:
 
