@@ -17,11 +17,6 @@ type cli struct {
 	client     http.Client
 }
 
-const (
-//	idleTimeout = 1200000
-//	maxIdle     = 120000
-)
-
 func NewClient(numWorkers, maxIdle *int, timeout, idleTimeout *time.Duration) client2.IClient {
 	transport := &http.Transport{
 		Proxy: http.ProxyFromEnvironment,

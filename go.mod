@@ -1,3 +1,3 @@
-module azure.com/novek/awesomeProject
+module url_fetcher
 
 go 1.18
